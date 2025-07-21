@@ -1,0 +1,175 @@
+main {
+    background-color: #e0e2e1;
+}
+
+#hero {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my-image {
+    width: 350px;
+    border-radius: 50%;
+}
+
+.hello {
+    display: inline-block;
+    width: 100px;
+    background-color: #00adFF;
+    color: #FFF;
+    padding: 5px 10px 5px 10px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.name-info {
+    font-size: x-large;
+    font-size: 36px;
+}
+
+.major {
+    font-size: 22px;
+}
+
+.connection-img {
+    width: 36px;
+    height: 36px;
+}
+
+.connection-li {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.connection-li:hover {
+    background-color: #ffcc00;
+}
+
+.connection-ul {
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.experience,
+.about {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.all-exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.dost {
+    margin-right: 173px;
+}
+
+.norm {
+    margin-left: 97px;
+}
+
+.azvirt {
+    margin-left: 177px;
+}
+
+.matanat {
+    margin-right: 19px;
+}
+
+.exp-img {
+    width: 300px;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.contact {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #00adff;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+@media (max-width:767px) {
+
+    #hero {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .connection-apps {
+        padding-left: 43px;
+    }
+
+    .my-image {
+        width: 300px;
+    }
+
+    .all-exp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .dost {
+        margin-left: 163px;
+    }
+
+    .norm {
+        margin-right: 70px;
+    }
+
+    .matanat {
+        margin-right: 20px;
+    }
+
+    .matanat-text {
+        margin-left: 55px;
+    }
+
+    .azvirt {
+        margin-right: 79px;
+    }
+}
